@@ -1,0 +1,316 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Background Image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 24px;
+  color: #00ffcc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00ffcc;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  background: #00ffcc;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.hero .btn:hover {
+  background: #00e6b8;
+  transform: scale(1.05);
+}
+
+/* Section Styling */
+.section {
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ffcc;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #00ffcc;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #00ffcc;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.skills-list li:hover {
+  transform: scale(1.1);
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills-column {
+  flex: 1 1 400px; /* Adjust width of each column */
+  list-style: disc inside;
+  line-height: 1.8;
+  padding: 0 10px;
+}
+
+.skills-column li b {
+  color: #00ffcc; /* Highlight category titles */
+}
+
+/* Projects Section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  width: 300px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.project-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  color: #00ffcc;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-card .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #00ffcc;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project-card .btn:hover {
+  background: #00e6b8;
+}
+
+/* Contact Section */
+#contact p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #00ffcc;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+}
+
+/* Chatbot */
+#chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  background: rgba(0,0,0,0.85);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  font-size: 14px;
+}
+
+#chat-header {
+  background: #00ffcc;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#chat-body {
+  height: 200px;
+  padding: 10px;
+  overflow-y: auto;
+  color: white;
+}
+
+#chat-body .user {
+  text-align: right;
+  color: #00ffcc;
+  margin: 5px 0;
+}
+
+#chat-body .bot {
+  text-align: left;
+  color: #fff;
+  margin: 5px 0;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
