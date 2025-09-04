@@ -165,10 +165,10 @@ Chatbot Interaction (Optional) → Enhanced User Engagement
 
 Feel free to fork this repository and submit pull requests for improvements. For major changes, please open an issue first to discuss proposed modifications.
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ by Rohit** | **© 2025 All rights reserved**
+**Built by Rohit** | **© 2025 All rights reserved**
