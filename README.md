@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing projects, skills, and professional experience in AI/ML, software development, and data science.
 
-## 🚀 Features
+##  Features
 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Interactive Navigation**: Smooth scrolling between sections
@@ -13,7 +13,7 @@ A modern, responsive personal portfolio website showcasing projects, skills, and
 - **Interactive Chatbot**: DarkKnight chatbot for visitor engagement
 - **Professional Styling**: Clean, modern UI with background imagery
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The portfolio follows a simple client-side architecture:
 
@@ -25,24 +25,10 @@ The portfolio follows a simple client-side architecture:
 ├── Assets
 │   ├── Images/ (Profile, project thumbnails, background)
 │   └── Rohit_Resume.pdf (Downloadable resume)
-└── Components
-    ├── Header Navigation
-    ├── Hero Section
-    ├── About Section
-    ├── Skills Section
-    ├── Projects Gallery
-    ├── Contact Section
-    └── Interactive Chatbot
+
 ```
 
-**Data Flow:**
-1. User loads the website → Static HTML/CSS/JS served
-2. Navigation clicks → Smooth scroll to sections via JavaScript
-3. Project links → Redirect to GitHub repositories
-4. Resume download → Direct PDF file download
-5. Chatbot interaction → JavaScript-based conversation handling
-
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Web browser (Chrome, Firefox, Safari, Edge)
@@ -94,7 +80,7 @@ The portfolio follows a simple client-side architecture:
    - Direct: `file:///path/to/index.html`
    - Local server: `http://localhost:8000`
 
-## 📖 Usage Instructions
+##  Usage Instructions
 
 ### Navigation
 - Use the header navigation menu to jump between sections
@@ -116,7 +102,7 @@ The portfolio follows a simple client-side architecture:
 - **Responsive Design**: Automatically adapts to different screen sizes
 - **Smooth Scrolling**: Enhanced user experience with smooth navigation
 
-## 💻 Technologies Used
+##  Technologies Used
 
 ### Frontend Technologies
 - **HTML5**: Semantic markup and structure
@@ -141,11 +127,11 @@ The portfolio follows a simple client-side architecture:
 - **Databases**: MySQL, MongoDB, PostgreSQL
 - **BI Tools**: Power BI, Tableau
 
-## 🔗 Project Link
+##  Project Link
 
 **GitHub Repository**: [<GitHub repository link>](https://github.com/rohitpali)
 
-## 📊 Flow Diagram
+## Flow Diagram
 
 ```
 User Visit → Landing Page → Navigation Menu
@@ -159,7 +145,7 @@ Contact Information → Social Media Links → Resume Download
 Chatbot Interaction (Optional) → Enhanced User Engagement
 ```
 
-## 🎯 Key Highlights
+##  Key Highlights
 
 - **8 Featured Projects**: From AI recommender systems to financial analysis
 - **Comprehensive Skills**: AI/ML, Data Science, Full-Stack Development
@@ -167,15 +153,15 @@ Chatbot Interaction (Optional) → Enhanced User Engagement
 - **Interactive Elements**: Chatbot and smooth user interface
 - **Mobile Responsive**: Optimized for all device types
 
-## 📱 Browser Compatibility
+##  Browser Compatibility
 
-- ✅ Chrome (Recommended)
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Mobile browsers
+-  Chrome (Recommended)
+-  Firefox
+-  Safari
+-  Edge
+-  Mobile browsers
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this repository and submit pull requests for improvements. For major changes, please open an issue first to discuss proposed modifications.
 
